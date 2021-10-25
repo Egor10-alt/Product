@@ -140,7 +140,6 @@ a{
     max-height: 557px;
     display: flex;
     align-items: center;
-    width: 60%;
 }
 .introduction__image{
     width: 100%;
@@ -290,7 +289,6 @@ a{
     overflow: hidden;
     display: flex;
     align-items: center;
-    width: 50%;
 }
 .descriptions__image{
     width: 100%;
@@ -1108,7 +1106,6 @@ a{
     .descriptions__preview{
     display: flex;
     align-items: center;
-    width: 50%;
     }
     .descriptions__image{
     width: 100%;
