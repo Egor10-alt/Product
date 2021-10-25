@@ -35,7 +35,6 @@ a{
     color: var(--light-color);
 }
 
-
 /* -------------Header---------------- */
 .header{
     background: #1F2E35;
@@ -54,8 +53,8 @@ a{
     display: flex;
     align-items: center;
 }
-.header__toggle{
-    opacity: 0;
+.header__burger{
+    display: none;
 }
 .header__nav{
     display: flex;
@@ -73,8 +72,7 @@ a{
     font-size: 16px;
 }
 .nav__link:hover{
-    font-weight: 600;
-    font-size: 16px;
+    opacity: 0.75;
 }
 .header__link{
     border: 1px solid #BCD0E5;
@@ -118,9 +116,6 @@ a{
 .logo__title{
     font-weight: bold;
     font-size: 30px;
-}
-.header__burger{
-    display: none;
 }
 
 
@@ -904,6 +899,9 @@ a{
     .nav__item:last-child{
         margin-right: 0;
     }
+    .header__burger{
+        display: none;
+    }
     .nav__link{
         font-weight: 500;
         font-size: 14px;
@@ -948,9 +946,6 @@ a{
     .logo__title{
         font-weight: bold;
         font-size: 24px;
-    }
-    .header__burger{
-        display: none;
     }
 
     /* -------Introduction-------*/
@@ -1657,6 +1652,9 @@ a{
 
 @media(max-width: 768px){ 
     
+    .header__burger{
+        display: flex;
+    }
     ._primary{
         background: var(--success-color);
         font-family: 'Poppins', sans-serif;
@@ -1704,9 +1702,6 @@ a{
     .logo__title{
         font-weight: bold;
         font-size: 27px;
-    }
-    .header__burger{
-        display: flex;
     }
 
 
@@ -2443,6 +2438,9 @@ a{
         margin-bottom: 15px;
     }
 
+    .header__burger{
+        display: flex;
+    }
     .header{
         background: #1F2E35;
         box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
@@ -2476,9 +2474,6 @@ a{
     .logo__title{
         font-weight: bold;
         font-size: 27px;
-    }
-    .header__burger{
-        display: flex;
     }
 
 
