@@ -135,6 +135,7 @@ a{
     margin: 0 auto;
 }
 .introduction__preview{
+    overflow: hidden;
     max-width: 600px;
     max-height: 557px;
     display: flex;
@@ -284,6 +285,9 @@ a{
     margin-bottom: 152px;
 }
 .descriptions__preview{
+    max-width: 500px;
+    max-height: 450px;
+    overflow: hidden;
     display: flex;
     align-items: center;
     width: 50%;
@@ -488,6 +492,9 @@ a{
     margin-bottom: 58px;
 }
 .posts__preview{
+    max-width: 500px;
+    max-height: 450px;
+    overflow: hidden;
     display: flex;
     align-items: center;
     width: 100%;
