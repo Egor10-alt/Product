@@ -684,6 +684,7 @@ a{
     margin-bottom: 45px;
 }
 .form__name ,.form__email{
+    outline: 0;
     padding: 0 15px;
     height: 54px;
     background: #F5F5F5;
@@ -704,6 +705,7 @@ a{
     color: var(--dark-primary);
 }
 .form__message{
+    outline: 0;
     padding: 10px 15px 0 15px;
     height: 193px;
     background: #F5F5F5;
