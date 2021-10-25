@@ -198,7 +198,7 @@ a{
 
 /* ----- Performance ------*/
 .performance{
-    background: url("img/Bg (2).png") no-repeat bottom ;
+    background: url("../img/Bg (2).png") no-repeat bottom ;
     margin-bottom: 146px;
 }
 .performance__container{
@@ -360,7 +360,7 @@ a{
 
  /* ---------Review--------- */
  .reviews{
-    background: url("img/Bg (3).png") no-repeat top;
+    background: url("../img/Bg (3).png") no-repeat top;
     margin-bottom: 150px;
 }
 .reviews__container{
@@ -1021,7 +1021,7 @@ a{
 
     /* ----- Performance ------*/
     .performance{
-    background: url("img/Bg (2).png") no-repeat bottom ;
+    background: url("../img/Bg (2).png") no-repeat bottom ;
     margin-bottom: 146px;
     }
     .performance__container{
@@ -1780,7 +1780,7 @@ a{
 
     /* ----- Uniqueness ------*/
     .performance{
-        background: url("img/Bg (2).png") no-repeat bottom ;
+        background: url("../img/Bg (2).png") no-repeat bottom ;
         margin-bottom: 90px;
     }
     .performance__container{
@@ -1933,7 +1933,7 @@ a{
 
     /* ---------Review--------- */
     .reviews{
-        background: url("img/Bg (3).png") no-repeat top ;
+        background: url("../img/Bg (3).png") no-repeat top ;
         margin-bottom: 90px;
     }
     .reviews__container{
@@ -2552,7 +2552,7 @@ a{
 
     /* ----- Uniqueness ------*/
     .performance{
-        background: url("img/Bg.png") no-repeat bottom ;
+        background: url("../img/Bg.png") no-repeat bottom ;
         margin-bottom: 90px;
     }
     .performance__container{
@@ -2702,7 +2702,7 @@ a{
 
     /* ---------Review--------- */
     .reviews{
-        background: url("img/Bg (1).png") no-repeat top ;
+        background: url("../img/Bg (1).png") no-repeat top ;
         margin-bottom: 90px;
     }
     .reviews__container{
