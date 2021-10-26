@@ -426,6 +426,7 @@ a{
     top: 71px;
 }
 .comment__portrait{
+    overflow: hidden;
     max-width: 98px;
     min-width: 98px;
 }
@@ -1239,6 +1240,7 @@ a{
     top: 71px;
     }
     .comment__portrait{
+    overflow: hidden;
     max-width: 98px;
     min-width: 98px;
     }
@@ -2056,6 +2058,7 @@ a{
         display: none;
     }
     .comment__portrait{
+        overflow: hidden;
         max-width: 69px;
         min-width: 69px;
     }
@@ -2830,6 +2833,7 @@ a{
         top: 52px;
     }
     .comment__portrait{
+        overflow: hidden;
         max-width: 69px;
         min-width: 69px;
     }
