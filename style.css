@@ -53,6 +53,9 @@ a{
     display: flex;
     align-items: center;
 }
+#header__checkbox{
+    display: none;
+}
 .header__burger{
     display: none;
 }
@@ -1659,9 +1662,62 @@ a{
 
 
 @media(max-width: 768px){ 
-    
+    #header__checkbox{
+        position: absolute;
+        right: 24px;
+        display: flex;
+        opacity: 0;
+    }
     .header__burger{
         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 17px;
+    }
+    #header__checkbox:checked ~ .burger .burger__line:nth-child(2){
+        width: 75%;
+    }
+    #header__checkbox:checked ~ .burger .burger__line:nth-child(1){
+        transform: rotate(0);
+    }
+    #header__checkbox:checked ~ .burger .burger__line:nth-child(3){
+        width: 50%;
+    }
+    #header__checkbox:checked ~ .header__menu{
+        padding: 15px 0 15px 50px;
+        width: 100%;
+        background: var(--dark-primary);
+        position: absolute;
+        display: flex;
+        transition-duration: .25s;
+        left: 0;
+        top: 75px;
+    }
+
+    .burger__line{
+        width: 21px;
+        height: 3px;
+        background: #FFFFFF;
+        border-radius: 8px;
+    }
+    #header__checkbox:checked ~ .header__menu > .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        text-align: center;
+    }
+    #header__checkbox:checked ~ .header__menu > .nav > .nav__item{
+        margin-bottom: 15px;
+    }
+    #header__checkbox:checked ~ .header__menu > .nav > .nav__item > .nav__link{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    #header__checkbox:checked ~ .header__menu > .nav > .nav__item > .nav__link:hover{
+       opacity: 0.75;
+    }
+    .header__menu{
+        display: none;
     }
     ._primary{
         background: var(--success-color);
@@ -1677,7 +1733,12 @@ a{
     ._indentation{
         margin-bottom: 15px;
     }
-
+    .header__link{
+        display: none;
+    }
+    .header__toggle{
+        display: none;
+    }
     .header{
         background: #1F2E35;
         box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
@@ -1690,9 +1751,6 @@ a{
         align-items: center;
         margin: 0 auto;
         justify-content: space-between;
-    }
-    .header__menu{
-        display: none;
     }
     .header__logo{
         display: flex;
@@ -1716,7 +1774,6 @@ a{
     /* -------Introduction-------*/
     .introduction{
         margin-bottom: 98px;
-        position: relative;
     }
     .introduction__container{
         padding: 0 20px;
@@ -2430,6 +2487,10 @@ a{
 
 
 @media(max-width: 320px){ 
+    #header__checkbox{
+        display: flex;
+        opacity: 0;
+    }
     
     ._primary{
         background: var(--success-color);
